@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Script para bloquear pop-ups
 // @author       Seu Nome
-// @match        https://hentaiworld.tv/*
+// @match        https://exemple.com/*
 // @grant        none
 // ==/UserScript==
 
