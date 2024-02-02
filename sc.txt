@@ -1,0 +1,27 @@
+// ==UserScript==
+// @name         Bloquear Pop-up
+// @namespace    http://your-namespace.com
+// @version      1.0
+// @description  Script para bloquear pop-ups
+// @author       Seu Nome
+// @match        https://example.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Seletor CSS do pop-up que você deseja bloquear
+    var popupSelector = '.popup';
+
+    // Função para ocultar o pop-up
+    function hidePopup() {
+        var popup = document.querySelector(popupSelector);
+        if (popup) {
+            popup.style.display = 'none';
+        }
+    }
+
+    // Chamar a função para ocultar o pop-up assim que a página carregar
+    window.addEventListener('load', hidePopup);
+})();
