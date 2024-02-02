@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Script para bloquear pop-ups
 // @author       Seu Nome
-// @match        https://example.com/*
+// @match        https://hentaiworld.tv/*
 // @grant        none
 // ==/UserScript==
 
@@ -12,7 +12,7 @@
     'use strict';
 
     // Seletor CSS do pop-up que você deseja bloquear
-    var popupSelector = '.popup';
+    var popupSelector = '.folating-banner';
 
     // Função para ocultar o pop-up
     function hidePopup() {
